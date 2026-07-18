@@ -1,0 +1,63 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="coco-fusion — BYO-key multi-model persona council">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f1d3a"/>
+    </linearGradient>
+    <linearGradient id="verdict" x1="1060" y1="110" x2="1180" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4C8DFF"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1120" cy="160" r="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4C8DFF" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#4C8DFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="20" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="19.5" fill="none" stroke="#243252" stroke-opacity="0.6"/>
+  <circle cx="1120" cy="160" r="170" fill="url(#glow)"/>
+
+  <!-- Left: wordmark + tagline -->
+  <text x="72" y="118" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="58" font-weight="700" fill="#F8FAFC">coco<tspan fill="#4C8DFF">-</tspan>fusion</text>
+  <text x="74" y="164" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#C7D2E5">BYO-key multi-model persona council</text>
+  <text x="74" y="200" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="18" fill="#8595B4">One lane per architecture family · extract-then-merge · one advisory verdict</text>
+
+  <g font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#AFC0E0">
+    <rect x="74" y="228" width="132" height="34" rx="17" fill="#16223f" stroke="#2b3c63"/>
+    <text x="140" y="250" text-anchor="middle">your keys</text>
+    <rect x="216" y="228" width="182" height="34" rx="17" fill="#16223f" stroke="#2b3c63"/>
+    <text x="307" y="250" text-anchor="middle">error-decorrelated</text>
+    <rect x="408" y="228" width="150" height="34" rx="17" fill="#16223f" stroke="#2b3c63"/>
+    <text x="483" y="250" text-anchor="middle">local or API</text>
+  </g>
+
+  <!-- Right: lanes fan-in to one verdict -->
+  <g transform="translate(0,0)">
+    <!-- lane nodes -->
+    <g font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#C7D2E5" text-anchor="middle">
+      <g>
+        <path d="M 968 70 C 1040 70, 1060 130, 1120 158" fill="none" stroke="#3a4d78" stroke-width="2.5"/>
+        <circle cx="960" cy="70" r="20" fill="#16223f" stroke="#F59E0B" stroke-width="2.5"/><text x="960" y="74">C</text>
+      </g>
+      <g>
+        <path d="M 948 118 C 1020 118, 1055 145, 1120 158" fill="none" stroke="#3a4d78" stroke-width="2.5"/>
+        <circle cx="940" cy="118" r="20" fill="#16223f" stroke="#10B981" stroke-width="2.5"/><text x="940" y="122">G</text>
+      </g>
+      <g>
+        <path d="M 948 202 C 1020 202, 1055 175, 1120 162" fill="none" stroke="#3a4d78" stroke-width="2.5"/>
+        <circle cx="940" cy="202" r="20" fill="#16223f" stroke="#4C8DFF" stroke-width="2.5"/><text x="940" y="206">D</text>
+      </g>
+      <g>
+        <path d="M 968 250 C 1040 250, 1060 190, 1120 162" fill="none" stroke="#3a4d78" stroke-width="2.5"/>
+        <circle cx="960" cy="250" r="20" fill="#16223f" stroke="#8B5CF6" stroke-width="2.5"/><text x="960" y="254">L</text>
+      </g>
+    </g>
+    <!-- verdict node -->
+    <circle cx="1120" cy="160" r="46" fill="#16223f" stroke="url(#verdict)" stroke-width="4"/>
+    <path d="M 1101 160 L 1114 173 L 1141 145" fill="none" stroke="#22C55E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1120" y="230" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#8595B4" text-anchor="middle">verdict</text>
+  </g>
+
+  <text x="72" y="292" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#5f6f92">part of CoCo Research · coco-research/coco-fusion</text>
+</svg>
